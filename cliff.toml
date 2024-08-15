@@ -46,7 +46,7 @@ footer = """
 trim = true
 # postprocessors
 postprocessors = [
-    { pattern = '\$REPO', replace = "https://github.com/Konata9/tyr-rust-bootcamp" }, # replace repository URL
+    { pattern = '\$REPO', replace = "https://github.com/bibinocode/rust-book" }, # 替换成自己的仓库地址
 ]
 
 [git]

@@ -1,4 +1,4 @@
 [default.extend-words]
 
 [files]
-extend-exclude = ["CHANGELOG.md", "notebooks/*"]
+extend-exclude = ["CHANGELOG.md", "notebooks/*"] # 忽略 CHANGELOG.md 和 notebooks 目录下的文件
