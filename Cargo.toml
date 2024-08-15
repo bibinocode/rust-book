@@ -1,0 +1,9 @@
+[package]
+name = "rcli"  # 项目名称
+version = "0.1.0" # 项目版本
+authors=["abi"] # 作者
+edition = "2021" # rust 版本语法兼容
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies] # 依赖库
