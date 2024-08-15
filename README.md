@@ -1,8 +1,10 @@
-# Rust 快速扫盲
+# Rust 学习仓库
 
 ## 环境设置
 
 ### 安装 Rust
+
+网址：https://rustup.rs/
 
 ```bash
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
@@ -215,3 +217,23 @@ cargo install cargo-nextest --locked
 ### 运行项目
 
 运行 `cargo run` 运行项目，会在 `target` 文件夹下生成可执行文件，并运行。
+
+## CodeView 规范
+
+一般提交会将主分支保护起来，然后提交代码切换到 `xxx/xxx` 分支
+
+`git diff` 自己先view以下代码 然后 `git add && git commit -a` git信息规范
+
+然后推送 `xxx/xxx` 分支到远程仓库，然后在github 进行 PR 合并 `Compare & pull request`  并且 `Merge pull Request` 在通过检查后才进行合并
+
+可以在项目设置中开启一个PR中所有Commit都Squash成一个Commit主线 `Pull Request -> Allow Squash Mergin` （可以考虑只开启这一个）
+
+CI解决的问题：
+- 代码规范检查等
+
+CodeView 人来解决的问题：
+- 架构View：架构设计 组件划分 依赖关系等。
+- 接口设计：数据结构 公开函数 接口等。
+- 代码质量：命名 注释 安全 性能 可读性等。
+- 可维护性：DRYI KISS SOLID  文档等。
+- 团队特定的实践
