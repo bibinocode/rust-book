@@ -3,12 +3,12 @@ name: build # 工作流名称
 on: # 监听器
   push: # 监听push事件
     branches: # 监听分支
-      - master
+      - main
     tags: # 监听tag
       - v*
   pull_request: # 监听pull_request事件
     branches: # 监听分支
-      - master
+      - main
 
 permissions: # 权限
   contents: write
